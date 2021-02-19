@@ -33,4 +33,8 @@
         'demo/demo.xml',
     ],
     
+    'license': 'OPL-1',   
+    'price': 8,   
+    'currency': 'EUR', 
+    
 }
