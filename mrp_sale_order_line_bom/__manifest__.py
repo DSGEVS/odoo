@@ -21,7 +21,7 @@
     'version': '11.0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base_setup', 'sale_management'],
+    'depends': ['base_setup', 'sale_management','mrp'],
 
     # always loaded
     'data': [
@@ -32,4 +32,5 @@
     'demo': [
         'demo/demo.xml',
     ],
+    
 }
