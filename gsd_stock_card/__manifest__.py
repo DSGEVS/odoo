@@ -10,10 +10,10 @@
         You can get reports of inputs, outputs and stock balances by product and location. 
     """,
 
-    'author': "David Lizarraga",
+    'author': "GSD intelligence - David Lizarraga Corne",
     'category': 'Warehouse',
-    'version': '0.1',
-    
+    'version': '11.0.1',
+    'license': 'AGPL-3',
 
     # any module necessary for this one to work correctly
 
@@ -26,11 +26,7 @@
         'report/stock_card_report.xml',
         'wizard/stock_card_wizard.xml',
     ],
-    'license': 'OPL-1',   
-    'price': 7,   
-    'currency': 'USD', 
-    'maintainer': 'David Lizarraga',   
-    'support': "David Lizarraga",
-    'installable': True,
-
+    'images': ['static/description/banner.png'],
+    'price': 12,
+    'currency': 'USD',
 }
