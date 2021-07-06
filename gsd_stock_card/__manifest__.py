@@ -12,7 +12,7 @@
 
     'author': "GSD intelligence - David Lizarraga Corne",
     'category': 'Warehouse',
-    'version': '11.0.1',
+    'version': '13.0.1',
     'license': 'AGPL-3',
 
     # any module necessary for this one to work correctly

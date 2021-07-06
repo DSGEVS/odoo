@@ -10,6 +10,7 @@ class StockCardWizard(models.TransientModel):
     start_date = fields.Date(string="Start Date")
     end_date = fields.Date(string="End Date", default=fields.Date.today)
 
+    @api.multi
     def print_xls_report(self, context=None):
         context = self._context
         datas = {'ids': context.get('active_ids', [])}
