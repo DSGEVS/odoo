@@ -26,11 +26,10 @@
         'report/stock_card_report.xml',
         'wizard/stock_card_wizard.xml',
     ],
-    'license': 'OPL-1',   
-    'price': 7,   
+    'license': 'GPL-3',
+    'price': 12,
     'currency': 'USD', 
     'maintainer': 'David Lizarraga',   
     'support': "David Lizarraga",
-    'installable': True,
 
 }
