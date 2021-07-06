@@ -29,7 +29,4 @@
     'license': 'OPL-1',
     'price': 12,
     'currency': 'USD', 
-    'maintainer': 'David Lizarraga',   
-    'support': "David Lizarraga",
-
 }
