@@ -12,7 +12,7 @@
 
     'author': "David Lizarraga",
     'category': 'Warehouse',
-    'version': '0.1',
+    'version': '11.0.1',
     
 
     # any module necessary for this one to work correctly
@@ -26,7 +26,7 @@
         'report/stock_card_report.xml',
         'wizard/stock_card_wizard.xml',
     ],
-    'license': 'GPL-3',
+    'license': 'OPL-1',
     'price': 12,
     'currency': 'USD', 
     'maintainer': 'David Lizarraga',   
