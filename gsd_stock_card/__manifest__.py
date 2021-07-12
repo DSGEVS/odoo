@@ -26,7 +26,7 @@
         'report/stock_card_report.xml',
         'wizard/stock_card_wizard.xml',
     ],
-    'images': ['static/description/banner.png'],
+    'images': ['static/description/banner.PNG'],
     'price': 12,
     'currency': 'USD',
 }
