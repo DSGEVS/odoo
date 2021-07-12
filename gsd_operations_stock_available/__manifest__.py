@@ -1,31 +1,21 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "gsd_purchase_stock_available",
-
+    'name': "gsd_operations_stock_available",
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
-
+        Adds new field in Sale Order Line, Purchase Order Line and Transfer Stock Line to grab the stock.
+        """,
     'description': """
-        Long description of module's purpose
     """,
-
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/11.0/odoo/addons/base/module/module_data.xml
-    # for the full list
-    'category': 'Uncategorized',
-    'version': '0.1',
-
+    'author': "GSD intelligence - David Lizarraga Corne",
+    'category': 'Warehouse',
+    'license': 'AGPL-3',
+    'version': '11.0.1',
     # any module necessary for this one to work correctly
     'depends': [
         'purchase',
         'sale_management',
         'stock',
     ],
-
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
@@ -33,4 +23,7 @@
         'views/sale_order_stock.xml',
         'views/stock_picking.xml'
     ],
+    'images': ['static/description/banner.PNG'],
+    'price': 8,
+    'currency': 'USD',
 }
