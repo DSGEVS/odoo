@@ -24,7 +24,7 @@
         'views/sale_order_stock.xml',
         'views/stock_picking.xml'
     ],
-    'images': ['static/description/banner.PNG'],
+    'images': ['static/description/banner.png'],
     'price': 8,
     'currency': 'USD',
 }
