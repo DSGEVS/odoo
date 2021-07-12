@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "gsd_operations_stock_available",
+    'name': "Visible stock available in Sales, Purchases and transfers",
     'summary': """
         Adds new field in Sale Order Line, Purchase Order Line and Transfer Stock Line to grab the stock.
         """,
     'description': """
+     Adds new field in Sale Order Line, Purchase Order Line and Transfer Stock Line to grab the stock.
     """,
     'author': "GSD intelligence - David Lizarraga Corne",
     'category': 'Warehouse',
