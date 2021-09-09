@@ -10,7 +10,7 @@
         You can get reports of inputs, outputs and stock balances by product and location. 
     """,
 
-    'author': "GSD intelligence - David Lizarraga Corne",
+    'author': "GSD intelligence",
     'category': 'Warehouse',
     'version': '13.0.1',
     'license': 'AGPL-3',
