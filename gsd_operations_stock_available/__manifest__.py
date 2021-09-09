@@ -10,7 +10,7 @@
     
     """,
 
-    'author': "GSD intelligence - David Lizarraga Corne",
+    'author': "GSD intelligence",
     'category': 'Warehouse',
     'license': 'AGPL-3',
     'version': '11.0.1',
