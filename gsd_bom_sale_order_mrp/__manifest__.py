@@ -25,7 +25,7 @@
         'views/mrp_production.xml',
     ],
     # only loaded in demonstration mode
-    'images': ['static/description/banner.PNG'],
+    'images': ['static/description/banner.jpg'],
     'price': 20,
     'currency': 'EUR',
 }
