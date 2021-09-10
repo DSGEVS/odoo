@@ -10,7 +10,7 @@
     
     """,
 
-    'author': "GSD intelligence",
+    'author': "GSD Devs",
     'category': 'Warehouse',
     'license': 'AGPL-3',
     'version': '12.0.1',
