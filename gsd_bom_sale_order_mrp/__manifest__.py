@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "gsd_bom_sale_order_mrp",
+    'name': "Add BoM on sale order line",
 
     'summary': """
-        Select BOM in your sale order and show the components in your quotation 
+        Select BOM in your sale order and list the components in your quotation 
         """,
 
     'description': """
