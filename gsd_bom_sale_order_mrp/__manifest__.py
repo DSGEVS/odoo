@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Add BoM on sale order line",
+    'name': "Add BoM in sale order line",
 
     'summary': """
         Select BOM in your sale order and list the components in your quotation 
