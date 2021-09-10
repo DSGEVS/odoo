@@ -10,7 +10,7 @@
         Add BOM to Sale order line and show its components in description field and quotation. Also you can view the Sale order in your Manufacture order
     """,
 
-    'author': "GSD Intellegence",
+    'author': "GSD Devs",
     'category': 'Sales',
     'version': '13.0.1',
     'license': 'AGPL-3',
