@@ -9,7 +9,7 @@
     'author': "GSD intelligence - David Lizarraga Corne",
     'category': 'Warehouse',
     'license': 'AGPL-3',
-    'version': '11.0.1',
+    'version': '14.0.1',
     # any module necessary for this one to work correctly
     'depends': [
         'purchase',
