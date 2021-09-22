@@ -6,7 +6,7 @@
         """,
     'description': """
     """,
-    'author': "GSD intelligence - David Lizarraga Corne",
+    'author': "GSD Devs",
     'category': 'Warehouse',
     'license': 'AGPL-3',
     'version': '14.0.1',
