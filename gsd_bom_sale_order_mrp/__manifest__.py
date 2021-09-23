@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "gsd_bom_sale_order_mrp",
+    'name': "Add BoM in sale order line",
 
     'summary': """
-        Select BOM in your sale order and show the components in your quotation 
+        Select BOM in your sale order and list the components in your quotation 
         """,
 
     'description': """
         Add BOM to Sale order line and show its components in description field and quotation. Also you can view the Sale order in your Manufacture order
     """,
 
-    'author': "GSD Intellegence",
+    'author': "GSD Devs",
     'category': 'Sales',
     'version': '14.0.1',
     'license': 'AGPL-3',
@@ -24,10 +24,7 @@
         'views/sale_order.xml',
     ],
     # only loaded in demonstration mode
-    'images': ['static/description/banner.PNG'],
+    'images': ['static/description/banner.jpg'],
     'price': 20,
     'currency': 'EUR',
 }
-
-
-
