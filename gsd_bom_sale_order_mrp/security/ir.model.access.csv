@@ -1,2 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_gsd_bom_sale_order_mrp_gsd_bom_sale_order_mrp,gsd_bom_sale_order_mrp.gsd_bom_sale_order_mrp,model_gsd_bom_sale_order_mrp_gsd_bom_sale_order_mrp,,1,0,0,0

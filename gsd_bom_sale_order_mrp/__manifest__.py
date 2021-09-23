@@ -12,17 +12,16 @@
 
     'author': "GSD Intellegence",
     'category': 'Sales',
-    'version': '11.0.1',
+    'version': '14.0.1',
     'license': 'AGPL-3',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'sale_management'],
+    'depends': ['base', 'sale_management', 'mrp'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/sale_order.xml',
-        'views/mrp_production.xml',
     ],
     # only loaded in demonstration mode
     'images': ['static/description/banner.PNG'],
