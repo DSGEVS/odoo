@@ -27,6 +27,6 @@
         'wizard/stock_card_wizard.xml',
     ],
     'images': ['static/description/banner.png'],
-    'price': 13,
-    'currency': 'USD',
+    'price': 12,
+    'currency': 'EUR',
 }
