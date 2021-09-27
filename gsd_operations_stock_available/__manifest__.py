@@ -28,6 +28,6 @@
         'views/stock_picking.xml'
     ],
     'images': ['static/description/banner.png'],
-    'price': 8,
-    'currency': 'USD',
+    'price': 9,
+    'currency': 'EUR',
 }
