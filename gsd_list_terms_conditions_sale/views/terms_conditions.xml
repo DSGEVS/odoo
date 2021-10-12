@@ -1,0 +1,40 @@
+<odoo>
+    <record id="view_terms_condition_form" model="ir.ui.view">
+        <field name="name">view.terms.condition.form</field>
+        <field name="model">sale.terms_condition</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="name"/>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_terms_condition_tree" model="ir.ui.view">
+        <field name="name">view.terms.condition.tree</field>
+        <field name="model">sale.terms_condition</field>
+        <field name="arch" type="xml">
+            <tree string="Terms and conditions">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_terms_condition_view" model="ir.actions.act_window">
+            <field name="name">Terms and conditions</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sale.terms_condition</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Visitas
+                </p>
+                <p>
+                    Click Nuevo para añadir nuevos elementos
+                </p>
+            </field>
+        </record>
+
+
+        <menuitem id="menu_terms_condition" name="Terms and conditions" parent="sale.menu_sale_config" sequence="0"
+                  action="action_terms_condition_view"/>
+</odoo>
