@@ -15,4 +15,4 @@ class StockCardWizard(models.TransientModel):
         datas = {'ids': context.get('active_ids', [])}
         datas['model'] = 'stock.card.wizard'
         datas['form'] = self.read()[0]
-        return self.env.ref('stock_card.card_report_xls').report_action(self, data=datas)
+        return self.env.ref('gsd_stock_card.card_report_xls').report_action(self, data=datas)
