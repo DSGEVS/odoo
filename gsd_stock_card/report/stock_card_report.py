@@ -75,7 +75,7 @@ class StockCardReportXlsx(models.AbstractModel):
             worksheet.set_column(5, 5, 30)
             worksheet.merge_range('A1:G1', 'STOCK CARD REPORT', bold)             
             worksheet.write('A2', 'Product:', bold1)
-            worksheet.merge_range('B2:G2', lines[0]['product'], text1)
+            worksheet.merge_range('B2:G2', obj.product_id.name, text1)
             worksheet.write('A3', 'Start date:', bold1)
             worksheet.write('B3', obj.start_date, date_format)
             worksheet.write('C3', 'End date:', bold1)
